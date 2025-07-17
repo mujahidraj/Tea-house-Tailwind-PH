@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-
-<style>
-    
-.manrope-font{
-  font-family: "Manrope", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-</style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a2c1bb72d8.js" crossorigin="anonymous"></script>
+    <style>
+        .manrope-font {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
 </head>
-<body class="manrope-font">
-    
+
+
+<body class="manrope-font max-w-6xl mx-auto">
+    <header class="flex gap-14 py-16">
+        <div>
+            <h3 class="text-6xl text-[#1C1C1C] font-extrabold mb-4">It's good <br>tea time at The <br>Tea House</h3>
+            <p class="text-lg font-medium mb-4 text-[#777]">Tea and Botanical Solutions Supplier Give Optimum
+                <br>Satisfaction To Your Taste Buds.</p>
+            <button class="text-white font-bold bg-gradient-to-r from-orange-400 to bg-red-500 p-5 rounded-xl">Explore
+                More <i class="fa-solid fa-arrow-right -rotate-45 ml-1"></i></button>
+        </div>
+        <div class="flex flex-col">
+            <div>
+                <img class="max-w-full" src="images/banner.png" alt="">
+            </div>
+            <div
+                class="flex items-center  bg-[#FFFFFF] -mt-30 ml-24 gap-2 rounded-xl max-w-60 justify-center shadow-lg ">
+                <i class="fa-solid fa-star text-amber-500"></i>
+                <div class="flex flex-col justify-center items-left py-5">
+                    <h3 class="text-3xl font-extrabold">5.00</h3>
+                    <p class="text-[#777] font-semibold">Trust Pilot Ratings</p>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
+
+
 </html>
