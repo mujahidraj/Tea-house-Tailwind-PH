@@ -5,11 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+
+    <!-- tailwind integration -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- manrope font embedded code -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Awesome font integration -->
     <script src="https://kit.fontawesome.com/a2c1bb72d8.js" crossorigin="anonymous"></script>
+    <!-- Font style -->
     <style>
         .manrope-font {
             font-family: "Manrope", sans-serif;
@@ -20,9 +27,13 @@
     </style>
 </head>
 
-
+<!-- body -->
 <body class="manrope-font max-w-6xl mx-auto">
+    
+    <!-- Header or banner section -->
     <header class="flex gap-14 py-16">
+        
+        <!-- banner text -->
         <div>
             <h3 class="text-6xl text-[#1C1C1C] font-extrabold mb-4">It's good <br>tea time at The <br>Tea House</h3>
             <p class="text-lg font-medium mb-4 text-[#777]">Tea and Botanical Solutions Supplier Give Optimum
@@ -30,6 +41,8 @@
             <button class="text-white font-bold bg-gradient-to-r from-orange-400 to bg-red-500 p-5 rounded-xl">Explore
                 More <i class="fa-solid fa-arrow-right -rotate-45 ml-1"></i></button>
         </div>
+
+        <!-- banner image -->
         <div class="flex flex-col">
             <div>
                 <img class="max-w-full" src="images/banner.png" alt="">
@@ -44,6 +57,51 @@
             </div>
         </div>
     </header>
+
+    <!-- Features section -->
+    <section class="mt-32">
+        <!-- feature section header -->
+        <h3 class="text-5xl font-extrabold text-[#1C1C1C] text-center my-5">Our Featured Products</h3>
+        <!-- feature section paragraph -->
+        <p class="text-base font-medium text-[#777777] text-center max-w-[900px] mx-auto">
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+        </p>
+        <!-- cards using the grid -->
+        <div class="grid grid-cols-4">
+            <!-- first card -->
+            <div class="p-8 flex flex-col items-center ">
+                <img class="my-6" src="images/tea-1.png" alt="">
+                <h2 class="text-2xl font-extrabold text-[#1C1C1C] my-2">Milk Tea</h2>
+                <p class="text-base font-semibold text-[#777777] text-center">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+            <!-- second card -->
+            <div>
+                  <div class="p-8 flex flex-col items-center ">
+                <img class="my-6" src="images/tea-2.png" alt="">
+                <h2 class="text-2xl font-extrabold text-[#1C1C1C] my-2">Black Tea</h2>
+                <p class="text-base font-semibold text-[#777777] text-center">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+            </div>
+            <!-- third card -->
+            <div>
+                  <div class="p-8 flex flex-col items-center ">
+                <img class="my-6" src="images/tea-3.png" alt="">
+                <h2 class="text-2xl font-extrabold text-[#1C1C1C] my-2">Lemon Tea</h2>
+                <p class="text-base font-semibold text-[#777777] text-center">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+            </div>
+            <!-- forth card -->
+            <div>
+                  <div class="p-8 flex flex-col items-center ">
+                <img class="my-6" src="images/tea-4.png" alt="">
+                <h2 class="text-2xl font-extrabold text-[#1C1C1C] my-2">Green Tea</h2>
+                <p class="text-base font-semibold text-[#777777] text-center">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    
 </body>
 
 
